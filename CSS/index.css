@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    /* border: 2px solid rgb(22, 204, 22); */
+}
+
+.sub-head{
+    height: 30px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.child-head{
+    display: flex;
+    /* margin-left: 100px; */
+    
+}
+.child-head img{
+    margin-top: 4px;
+}
+.child-head p{
+    color: white;
+    margin-top: 7px;
+}
+
+.sub-head2{
+/* justify-content: center; */
+display: flex;
+}
+
+.child-head2 img{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    margin-left: 260px;
+    /* margin-right: 1496px; */
+}
+
+.child-head2 input{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    margin-left: 260px;
+    border-radius: 100px ;
+    width: 550px;
+    height: 40px;
+    /* border: none; */
+}
+
+.child-head2 input:hover{
+    border: 2px solid rgb(202, 57, 215);
+}
+
+.child-head2 .child-head2-sub{
+    display: flex;
+
+}
+.child-head2-sub p{
+    margin-top: 25px;
+    margin-left: 2px;
+}
+
+.child-head3 {
+  
+    justify-content: center;
+    /* border: 2px solid rgb(208, 62, 188); */
+    height: 30px;
+    display: flex;
+    gap: 80px;
+  
+}
+
+.child-head3 li{
+    margin-top: 4px;
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    margin-left: 260px;
+    margin-top: 10px;
+    position: relative;
+    
+}
+
+.container .img{
+    margin-right: 15px;
+    position: relative;
+}
+.container p{
+    position: absolute;
+    color: white;
+    bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.container .img img:hover{
+    border: rgb(184, 62, 206);
+}
+ 
+.container2{
+    margin-top: 40px;
+    margin-left: 260px;
+    margin-right: 260px;
+    justify-content: center;
+}
+.container2 .images{
+ display: flex;   
+ justify-content: center;
+ gap: 110px;
+}
+
+.container3 h1{
+    text-align: center;
+    margin: 22px 0px;
+}
+
+.container4 {
+    margin-top: 10px;
+    margin-left: 260px;
+    margin-right: 260px;
+    display: flex;
+    gap: 100px;
+}
+.container4 p{
+    text-align: center;
+    font-size: 20px;
+}
+.container4 a{
+   display: block;
+   color: rgb(48, 238, 48);
+}
+
+.container5{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container6{
+    display: flex;
+    margin-left: 260px;
+    margin-right: 260px;
+    gap: 45px;
+}
+.container6 h3{
+  margin-top: 20px;  
+  margin-bottom: 20px;
+}
+.container6 h2{
+    margin-top: 10px;
+}
+.container6 button{
+ font-size: 20px;
+ width: 240px;
+ height: 50px;
+ background-color: green;
+ color: white;
+}
+.container6 button:hover{
+    border: 2px solid rgb(220, 47, 191);
+    text-decoration: underline rgb(220, 47, 191));
+}
+
+
+footer{
+    margin-top: 25px;
+}
+.foot{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.foot1{
+    margin-top: 20px;
+    display: flex;
+    /* margin-left: 100px; */
+    
+}
+.foot1 p{
+    color: white;
+    margin-top: 4px;
+}
+
+
+.foot2{
+    background-color: #323232;
+    color: white;
+    
+   
+}
+ 
+.foot2 .foot-sub-1{
+    margin-left: 300px;
+    margin-right: 150px;
+    display: flex;
+   
+}
+.foot2 .foot-sub-1 .foot-sub{
+    width: 50%;
+}
+
+.foot2 .foot-sub-1 .foot-sub h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.foot2 .foot-sub-1 .foot-sub li{
+    list-style: none;
+    margin-top: 5px;
+}
+.container6 .foot-sub{
+    margin-bottom: 60px;
+}
+
+.foot3{
+    background-color: #323232;
+  
+    display: flex;
+    
+}
+.foot3 .logo{
+    margin-left: 290px;
+    margin-top: 30px;
+}
+.foot3 .sub-foot3{
+    display: flex;
+    gap: 800px;
+
+}
+.foot3 .payment{
+    margin-top: 50px;
+    
+}
